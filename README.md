@@ -18,7 +18,7 @@ The model is trained on the **RealWaste** dataset, which contains images across 
 - Paper
 - Plastic
 - Textile Trash
-- Vegetation
+- Vegetation \n
   Link: https://archive.ics.uci.edu/dataset/908/realwaste
 
 ## 🛠️ Tech Stack
