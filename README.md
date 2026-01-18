@@ -9,6 +9,7 @@ EcoVision AI is a deep learning-based application designed to automate the proce
 - **Optimized Performance**: Implements TensorFlow data pipelines with prefetching and autotuning for efficient processing.
 
 ## 📊 Dataset
+Link: https://archive.ics.uci.edu/dataset/908/realwaste
 The model is trained on the **RealWaste** dataset, which contains images across 9 distinct classes:
 - Cardboard
 - Food Organics
@@ -18,8 +19,7 @@ The model is trained on the **RealWaste** dataset, which contains images across 
 - Paper
 - Plastic
 - Textile Trash
-- Vegetation \n
-  Link: https://archive.ics.uci.edu/dataset/908/realwaste
+- Vegetation
 
 ## 🛠️ Tech Stack
 - **Language**: Python
