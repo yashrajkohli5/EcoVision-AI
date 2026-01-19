@@ -1,0 +1,27 @@
+name: Keep Streamlit App Awake
+
+on:
+  schedule:
+    # This runs every 2 hours (UTC). 
+    # You can adjust the cron expression to run more or less often.
+    - cron: '0 */5 * * *'
+  workflow_dispatch: # Allows you to run it manually for testing
+
+jobs:
+  ping_app:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/checkout@v4
+        with:
+          python-version: '3.9'
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - name: Run keep_awake script
+        run: python keep_awake.py
