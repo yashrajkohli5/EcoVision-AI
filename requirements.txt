@@ -5,3 +5,4 @@ keras
 streamlit
 selenium
 webdriver-manager
+protobuf
